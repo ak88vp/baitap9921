@@ -5,13 +5,12 @@
     <title>hiển thị đầu ra</title>
 </head>
 <body>
-<button type="button" onclick="okokok()">Clicktaodi</button>
+<div id="messageDiv"></div>
+<button type="button" onclick="showMessage();">Click Me!</button>
 <script>
-    function okokok() {
-        alert('xin chào mi' )
+    function showMessage(){
+        document.getElementById('messageDiv').innerHTML = 'Xin chào!';
     }
 </script>
-
-
 </body>
 </html>
